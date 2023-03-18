@@ -22,7 +22,7 @@ int main(void)
 			{
 				putchar((firstDijit / 10) + 48);
 				putchar((firstDijit % 10) + 48);
-				putchar(',');
+				putchar(' ');
 				putchar((seconDijit / 10) + 48);
 				putchar((seconDijit % 10) + 48);
 
