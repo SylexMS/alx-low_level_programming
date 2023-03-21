@@ -37,5 +37,6 @@ int main(void)
 		firstDijit++;
 	}
 	putchar('\n');
+
 	return (0);
 }
