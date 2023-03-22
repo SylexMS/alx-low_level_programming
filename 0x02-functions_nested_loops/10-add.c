@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * print_to_98 - print n to 98 counts
- * separated by comma. followed bt space and number
- * should be printed in order
+ * add - add two integers
  *
- * @n: input
+ * @a: first input
+ * @b: second input
+ *
+ * Return: sum of a & b
 */
 
-void print_to_98(int n)
+int add(int a, int b)
 {
-	int count;
+	int sum = a + b;
 
-	if (n > 98)
-		for (count = n; count > 98; count--)
-			printf("%d, ", count);
-	else
-		for (count = n; count < 98; count++)
-			printf("%d, ", count);
-	printf("98\n");
+	return (sum);
 }
