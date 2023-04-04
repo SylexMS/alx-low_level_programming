@@ -18,5 +18,6 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		si[i] = b;
 	}
+	
 	return (s);
 }
