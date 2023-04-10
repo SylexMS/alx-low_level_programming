@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 	while (argc--)
 	{
 		printf("%s\n", argv[x]);
-		i++;
+		x++;
 	}
 	return (0);
 }
