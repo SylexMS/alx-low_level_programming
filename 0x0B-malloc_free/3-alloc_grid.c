@@ -32,7 +32,7 @@ int **alloc_grid(int width, int height)
 				return (NULL);
 			}
 
-			for (j = 0 ; j < width ; k++)
+			for (j = 0 ; j < width ; j++)
 				sp[i][j] = 0;
 		}
 	}
