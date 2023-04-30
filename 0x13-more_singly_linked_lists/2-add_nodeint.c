@@ -3,6 +3,8 @@
 /**
  * add_nodeint - adds a node to the top
  * @head: ptr to first node
+ * @n: value for new node
+ *
  * Return: ptr to new node
 */
 
