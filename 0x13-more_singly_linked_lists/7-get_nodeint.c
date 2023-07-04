@@ -2,8 +2,8 @@
 
 /**
  * get_nodeint_at_index - returns node at index
- * @head: ptr to first node
  * @index: index of node to get
+ * @head: ptr to first node
  *
  * Return: ptr to node
 */
@@ -11,9 +11,9 @@
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	listint_t *node;
-	unsigned int i;
+	unsigned int n;
 
-	for (node = head, i = 0; node && i < index; node->next, i++)
+	for (node = head, n = 0; node && n < index; node->next, n++)
 		;
 	return (node);
 }
